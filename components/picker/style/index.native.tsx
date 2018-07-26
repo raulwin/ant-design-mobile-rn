@@ -1,4 +1,4 @@
-import { TextStyle, ViewStyle } from 'react-native';
+import { TextStyle, ViewStyle, StyleSheet } from 'react-native';
 
 export interface IPickerStyle {
   modal: ViewStyle;
