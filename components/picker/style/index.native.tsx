@@ -20,8 +20,10 @@ export default {
     alignItems: 'center',
     flexDirection: 'row',
     justifyContent: 'center',
-    borderBottomWidth: 1,
-    borderBottomColor: '#e7e7e7',
+    borderWidth: StyleSheet.hairlineWidth,
+    borderColor: '#e7e7e7',
+    //borderBottomWidth: 1,
+    //borderBottomColor: '#e7e7e7',
   },
   headerItem: {
     height: 44,
