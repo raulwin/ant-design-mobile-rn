@@ -30,6 +30,8 @@ export default class Grid extends React.Component<GridProps, any> {
     carouselMaxRow: 2,
     styles: GridStyles,
     itemStyle: {},
+    // selectedIndex: 0,
+    // afterChange: () => {}
   };
 
   getFlexItemStyle(columnNum: number) {
@@ -161,7 +163,7 @@ export default class Grid extends React.Component<GridProps, any> {
     }
 
     return isCarousel && pageCount > 1 ? (
-      <Carousel infinite={false} dots>
+      <Carousel infinite={false} dots {...this.props}>
         {pagesArr}
       </Carousel>
     ) : (
