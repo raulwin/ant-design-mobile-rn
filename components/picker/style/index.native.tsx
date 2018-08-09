@@ -22,8 +22,8 @@ export default {
     justifyContent: 'center',
     borderWidth: StyleSheet.hairlineWidth,
     borderColor: '#e7e7e7',
-    //borderBottomWidth: 1,
-    //borderBottomColor: '#e7e7e7',
+    // borderBottomWidth: 1,
+    // borderBottomColor: '#e7e7e7',
   },
   headerItem: {
     height: 44,
